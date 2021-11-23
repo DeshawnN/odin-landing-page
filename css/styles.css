@@ -44,7 +44,7 @@ ul a {
 
 .hero {
     display: flex;
-    height: 350px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     flex: auto;
