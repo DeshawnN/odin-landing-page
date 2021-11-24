@@ -59,7 +59,6 @@ ul a {
 
 .hero .primary-text {
     font-size: 48px;
-    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -96,4 +95,50 @@ ul a {
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+}
+
+.random-info .primary-text {
+    font-size: 36px;
+    padding: 32px;
+    color: #1F2937;
+}
+
+.random-info .primary-text, .hero .primary-text {
+    font-weight: 800;
+    
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+
+.random-info .information {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+}
+
+.subtext {
+    font-size: 12px;
+    text-align: center;
+}
+
+.info .image {
+    border: 2px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
 }
