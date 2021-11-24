@@ -113,7 +113,7 @@ ul a {
     flex-direction: column;
     justify-content:space-around;
     align-items:center;
-    
+    margin-bottom: 32px;
 }
 
 .random-info .information {
@@ -141,4 +141,29 @@ ul a {
     height: 100px;
     width: 100px;
     border-radius: 5px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    height: 350px;
+    margin: 0 auto;
+
+}
+.quote .text {
+    margin-bottom: 20px;
+}
+
+.quote .attribution {
+    font-weight: 700;
+    align-self: flex-end;
+}
+.attribution::before {
+    content: "-";
 }
