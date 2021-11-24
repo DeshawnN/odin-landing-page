@@ -158,6 +158,10 @@ ul a {
 }
 .quote .text {
     margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote .attribution {
